@@ -516,7 +516,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "desk-clock.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
