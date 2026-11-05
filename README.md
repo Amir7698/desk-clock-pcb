@@ -7,6 +7,21 @@ over USB-C or a LiPo cell.
 **Status:** schematic complete (ERC clean), PCB laid out and routed, DRC being
 finished. Not fabricated yet — no hardware results are claimed here.
 
+
+## Preview
+
+3D renders generated with `kicad-cli` from the current board state (work in progress).
+
+![Top view](docs/images/board-top.png)
+
+![Angled view](docs/images/board-angle.png)
+
+Bottom side (ground pour, a few hop routes; all parts are on top):
+
+![Bottom view](docs/images/board-bottom.png)
+
+Schematic: [docs/desk-clock-schematic.pdf](docs/desk-clock-schematic.pdf)
+
 ## What is on the board
 
 | Block | Part | Notes |
@@ -58,6 +73,6 @@ finished. Not fabricated yet — no hardware results are claimed here.
 
 - `desk-clock.kicad_pro / .kicad_sch / .kicad_pcb` — KiCad 9 project
 - `scripts/` — small KiCad scripting-console helpers used for placement
-- `renders/` — headless 3D renders
+- `docs/` — schematic PDF and 3D renders
 
 Open the `.kicad_pro` in KiCad 9.
